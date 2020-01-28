@@ -5,7 +5,13 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    name: 'guming',
+    movies: [
+      {name: '111', year:'1111'},
+      {name: '222', year: '2222'},
+      { name: '333', year: '3333' }
+    ],
+    counter: 0
   },
 
   /**
@@ -62,5 +68,20 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  addCount: function(){
+    // 错误做法
+    // console.log("aaa")
+    // this.data.counter += 1
+    this.setData({
+      counter: this.data.counter + 1
+    })
+  },
+
+  subCount: function() {
+    this.setData({
+      counter: this.data.counter - 1
+    })
   }
 })

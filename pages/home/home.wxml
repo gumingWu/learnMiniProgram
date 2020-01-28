@@ -1,2 +1,9 @@
 <!--pages/home/home.wxml-->
 <text class="title">Hello World</text>
+
+<view>{{ name }}</view>
+<view wx:for="{{movies}}">{{item.name}}</view>
+
+<view>计数:{{counter}}</view>
+<button bindtap="addCount" size="mini">+</button>
+<button bindtap="subCount" size="mini">-</button>
