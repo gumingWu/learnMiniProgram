@@ -1,0 +1,7 @@
+<!--pages/userinfo/userinfo.wxml-->
+<!-- 获取用户信息 -->
+<button open-type="getUserInfo" bindgetuserinfo="handleUserInfo">获取用户信息</button>
+
+<!-- 显示用户信息组件:open-data -->
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>

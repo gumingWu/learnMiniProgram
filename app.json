@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/category/category"
+    "pages/category/category",
+    "pages/userinfo/userinfo"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ff5777",
@@ -25,6 +26,12 @@
         "text": "分类",
         "iconPath": "assets/tabbar/category.png",
         "selectedIconPath": "assets/tabbar/category_active.png"
+      },
+      {
+        "pagePath": "pages/userinfo/userinfo",
+        "text": "用户信息",
+        "iconPath": "assets/tabbar/profile.png",
+        "selectedIconPath": "assets/tabbar/profile_active.png"
       }
     ]
   }

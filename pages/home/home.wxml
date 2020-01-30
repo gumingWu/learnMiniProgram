@@ -7,3 +7,6 @@
 <view>计数:{{counter}}</view>
 <button bindtap="addCount" size="mini">+</button>
 <button bindtap="subCount" size="mini">-</button>
+
+<view>{{ globalname }}</view>
+<view>{{ globalage }}</view>
